@@ -24,6 +24,8 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    margin: 4px 2px;
+    font-size: 14px;
 }
 
 #btn {
@@ -35,8 +37,25 @@ input {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     margin: 4px 2px;
     cursor: pointer;
 }
 
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+a:hover, a:active {
+  background-color: #999;
+  color: white;
+}
